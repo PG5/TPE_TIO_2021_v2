@@ -32,15 +32,15 @@ PROTOCOLO
 
 REPOSITORIO
 *CARPETA 
-   index.html
-   qsomos.html
-   productos.html
-   contacto.html
-   mayorista.html
-   estilos.css
-   pie_pagina.js
+   - index.html
+   - qsomos.html
+   - productos.html
+   - contacto.html
+   - mayorista.html
+   - estilos.css
+   - pie_pagina.js
 *SUBCARPETA AUX
-  qsomos.txt
-  maqueta.html
-  productos.png
-  precios.txt
+  - qsomos.txt
+  - maqueta.html
+  - productos.png
+  - precios.txt
