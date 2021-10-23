@@ -39,6 +39,7 @@ REPOSITORIO
    - mayorista.html
    - estilos.css
    - pie_pagina.js
+  
 *SUBCARPETA AUX
   - qsomos.txt
   - maqueta.html
