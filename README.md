@@ -37,11 +37,17 @@ REPOSITORIO
    - productos.html
    - contacto.html
    - mayorista.html
-   - estilos.css
    - pie_pagina.js
+ 
+*SUBCARPETA CSS
+   - estilos.css
   
-*SUBCARPETA AUX
+*SUBCARPETA IMG
+   - favicon.ico
+   - logo.png
+   
+*SUBCARPETA AUXILIAR
   - qsomos.txt
-  - maqueta.html
+  - plantilla.html
   - productos.png
   - precios.txt
