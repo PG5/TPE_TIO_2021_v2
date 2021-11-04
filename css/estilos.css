@@ -1,6 +1,11 @@
 body {
 	background-color: #f3f0e9;
 }
+
+section {
+	margin-top: 5%;
+}
+
 .menu {
 	width: 100%;
 	background: #000;
@@ -8,59 +13,140 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
 .menu li {
 	display: inline-block;
 }
+
 .menu li a {
 	padding: 10px 20px;
 	display: inline-block;
 	color: #fff;
 }
+
 .menu li a:hover {
 	background: #ccc;
 	color: #000;
 }
+
 img {
 	width: 200px;
 	height: auto;
 	margin: auto;
 	display: block;
 }
+
+img.logo {
+	width: 25px;
+	display: inline-block;
+}
+
 form {
 	width: 25%;
 	border: 1px solid #ccc;
 	margin: 20px;
 	padding: 20px;
 }
+
 label {
 	font-size: 12px;
 	display: block;
 	width: 100%
 }
-textarea{
+
+textarea {
 	resize: vertical;
 	max-height: 250px;
 	min-height: 100px;
 }
-input, textarea {
+
+input,
+textarea {
 	margin-bottom: 20px;
 	width: 100%;
 	padding: 10px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	border: 1px solid #ccc;
 }
-input:focus, textarea:focus {
+
+input:focus,
+textarea:focus {
 	border: 1px solid #1668c4;
 }
+
 input[type="submit"] {
 	margin-bottom: 0px;
 	background: #1668c4;
 	color: #fff;
 	border: none;
 }
+
 input[type="submit"]:hover {
 	background: #4a88f4;
 	cursor: pointer;
+}
+
+footer {
+	background: #000;
+	color: #fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+/* ---------------------  tabla para catalogo---------------------*/
+table {
+	width: 65%;
+	margin: auto;
+	padding: 2px;
+
+}
+
+thead {
+	text-align: center;
+	background-color: burlywood;
+}
+
+tbody {
+	background-color: black;
+	color: blanchedalmond;
+}
+
+figcaption {
+	text-align: center;
+}
+
+ul {
+	margin-right: 10%;
+}
+
+ul li {
+	text-align: justify;
+}
+
+table,
+td,
+tr {
+	border: 1px solid blanchedalmond;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+tr,
+td {
+	transition: .4s ease-in;
+}
+
+tr:hover:not(#firstrow),
+tr:hover td:empty {
+	background: black;
+	pointer-events: visible;
+}
+
+tr:hover:not(#firstrow) {
+	transform: scale(1.03);
+	font-weight: 200;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
 }
